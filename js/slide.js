@@ -118,6 +118,7 @@ export class Slide {
     this.bindEvents();
     this.addSlideEvents();
     this.slidesConfig();
+    this.changeSlide(0);
     return this
   }
 }
