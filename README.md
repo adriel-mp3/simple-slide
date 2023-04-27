@@ -1,6 +1,6 @@
 <h1 align="center">Simple Slide</h1>
 
-<img src="./github/screenshot1.jpeg">
+<img src="./.github/screenshot1.jpg">
 
 <h2>
   Resume
