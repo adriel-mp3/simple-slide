@@ -78,3 +78,29 @@ slide.init();
   The <code>init()</code> method initializes the slide by adding all necessary event listeners and configuring the slide's initial state. The slide 
   will now be functional and ready for use on the website.
 </p>
+
+<p>
+  There is also the possibility of configuring two different types of navigation from the SlideNav class.
+</p>
+
+<h3>
+  Navigation by arrow or by simple pagination.
+</h3>
+
+<p>
+  If you just want to add a simple navigation, just use
+</p>
+
+<code>slide.addControl('your class here (optional)')</code>
+
+<p>
+  If you want to customize it, just add the class of the element that will be added to the navigation properties.
+</p>
+
+To navigate by arrow, just add the method
+
+<code>addArrow('.prev', '.next')</code>
+
+<p>
+  And pass the respective classes of each element to be selected by the DOM.
+</p> 
