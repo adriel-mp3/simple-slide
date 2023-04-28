@@ -1,6 +1,14 @@
 <h1 align="center">Simple Slide</h1>
 
+<p align="center">
+    <a href="#--resume">Resume</a> · 
+    <a href="#--code">Code</a>  · 
+    <a href="#--responsiveness">Responsiveness</a> · 
+    <a href="#--how-to-use">How to use</a> 
+  </p>
+
 <img src="./.github/screenshot1.jpg">
+<hr>
 
 <h2>
   Resume
@@ -97,7 +105,9 @@ slide.init();
   If you want to customize it, just add the class of the element that will be added to the navigation properties.
 </p>
 
-To navigate by arrow, just add the method
+<p>
+  To navigate by arrow, just add the method
+</p>
 
 <code>addArrow('.prev', '.next')</code>
 
